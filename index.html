@@ -28,9 +28,30 @@ color: burlywood;
 font-size: 20px;
    }
    h1{
-    
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
    }
-  
+  .carusol-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+  .myslides{
+    display: none;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align:center ;
+  }
    </style>
 </head>
 <body>
@@ -42,12 +63,14 @@ font-size: 20px;
 
 </div>
 
-<div class="caursol-container">
+<div class="carousel-container">
     <img class="myslides"  src="pic1.jpg" height="300" width="300" alt="Slide1"> 
     <img class="myslides"  src="pic2.jpg" height="300" width="300" alt="Slide2"> 
     <img class="myslides"  src="pic3.jpg" height="300" width="300" alt="Slide3"> 
 </div>
-
+<div class="footer">
+<p> @copy all rights reserved by swati singh</p>
+</div>
 <script> src = slider.js</script>
 </body>
 </html>
